@@ -1,24 +1,69 @@
 import React from 'react';
+import '/Users/nini/Bootcamp/REACT_Portfolio/d0kd0-portfolio/src/components/pages/style.css';
+import project1 from "/Users/nini/Bootcamp/REACT_Portfolio/d0kd0-portfolio/src/components/image/Horiseon.jpeg";
+import project2 from "/Users/nini/Bootcamp/REACT_Portfolio/d0kd0-portfolio/src/components/image/D0KD0.jpeg";
+import project3 from "/Users/nini/Bootcamp/REACT_Portfolio/d0kd0-portfolio/src/components/image/recipe.jpeg";
+import project4 from "/Users/nini/Bootcamp/REACT_Portfolio/d0kd0-portfolio/src/components/image/HelloBud_logo.png";
+import project5 from "/Users/nini/Bootcamp/REACT_Portfolio/d0kd0-portfolio/src/components/image/pre-work.jpeg";
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div className="tab-container">
+      <div className="container">
+        <div className="row">
+
+          <div class="col">
+            <a href="https://d0kd0.github.io/1st-Challenge-Horiseon/" target='_blank' >
+              <img
+                src={project1}
+                alt="desk at cafe"
+                className="resize"
+              />
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="https://d0kd0.github.io/2nd-Challenge-D0KD0/" target='_blank' >
+            <img 
+                src={project2}
+                alt="ipad on desk"
+                className="resize"
+              />
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="https://d0kd0.github.io/prework-study-guide/" target='_blank' >
+              <img 
+                src={project3}
+                alt="coding sign"
+                className="resize"
+              />
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="https://olgagav.github.io/what-am-i-craving-today" target='_black' >
+              <img 
+                src={project4}
+                alt="ipad on desk"
+                className="resize"
+              />
+            </a>
+          </div>
+
+          <div class="col">
+          <a href="https://hellobud-app.herokuapp.com/" target='_black' >
+            <img 
+            src={project5}
+            alt="logo"
+            className="resize"
+            />
+          </a>
+          </div>
+
+        </div>
+      </div>
     </div>
   );
 }
