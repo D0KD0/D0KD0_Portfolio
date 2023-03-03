@@ -1,22 +1,17 @@
 import React from 'react';
+import '/Users/nini/Bootcamp/REACT_Portfolio/d0kd0-portfolio/src/components/pages/style.css';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
+    <div className="tab-container">
       <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
+        You can contact me here: 
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/parkminjoo/" target="_blank"> <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Logo.svg.original.svg" class="contact"/></a> 
+        
+        <a href="https://github.com/D0KD0/" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" class="contact"/></a>
       </p>
     </div>
   );
-}
+  }
