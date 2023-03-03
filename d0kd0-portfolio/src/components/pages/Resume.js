@@ -1,21 +1,60 @@
 import React from 'react';
 
+const frontEnd = [
+  "HTML",
+  "CSS",
+  "Javascript",
+  "Bootstrap",
+  "REACT",
+  "jQuery"
+]
+
+const backEnd = [
+  "APIs",
+  "Node.js",
+  "Express",
+  "MySQL",
+  "MongoDB",
+  "MERN"
+]
+
+const nonCoding = [
+  "Project management",
+  "Supply chain management - Domestic, Overseas",
+  "JIRA, Confluence",
+  "Material planning",
+  "Production planning",
+  "Logistics management"
+]
+
 export default function Resume() {
   return (
-    <div>
-      <h1>Resume Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div className="tab-container">
+      <div>
+        <h2>Resume Page</h2>
+      </div>
+      <div>
+      </div>
+      <div className="skills">
+        <h4>Coding: Front-End</h4>
+        <ul>
+          {frontEnd.map((skill, index) => (
+            <li key={index}>{skill}</li>
+          ))}
+        </ul>
+        <h4>Coding: Backend-End</h4>
+        <ul>
+          {backEnd.map((skill, index) => (
+            <li key={index}>{skill}</li>
+          ))}
+        </ul>
+        <h4>Non-Coding</h4>
+        <ul>
+          {nonCoding.map((skill, index) => (
+            <li key={index}>{skill}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
