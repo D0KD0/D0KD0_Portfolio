@@ -14,7 +14,7 @@ export default function About() {
           </p>
           <div className="col-sm-10 col-md-4 col-lg-4">
             <img
-              src={Profile}
+              src="https://media.licdn.com/dms/image/C5603AQGbNkzzpz3KEQ/profile-displayphoto-shrink_400_400/0/1654873453797?e=1683158400&v=beta&t=qg4RF5oP9fmT-oAUxLkTTUHbSRlxmbQPfQP-wc21RdU"
               alt="Profile iamge of Minjoo Park"
               className="img-thumbnail"
             />

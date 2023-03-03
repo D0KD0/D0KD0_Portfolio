@@ -11,7 +11,12 @@ export default function Portfolio() {
     <div className="tab-container">
       <div className="container">
         <div className="row">
-
+          <p>
+          
+          </p>
+          <p>
+            
+          </p>
           <div class="col">
             <a href="https://d0kd0.github.io/1st-Challenge-Horiseon/" target='_blank' >
               <img

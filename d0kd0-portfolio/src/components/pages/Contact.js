@@ -4,6 +4,12 @@ import '/Users/nini/Bootcamp/REACT_Portfolio/d0kd0-portfolio/src/components/page
 export default function Contact() {
   return (
     <div className="tab-container">
+          <p>
+          
+          </p>
+          <p>
+            
+          </p>
       <p>
         You can contact me here: 
       </p>

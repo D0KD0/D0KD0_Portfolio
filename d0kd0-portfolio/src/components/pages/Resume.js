@@ -31,6 +31,12 @@ export default function Resume() {
   return (
     <div className="tab-container">
       <div>
+        <p>
+            
+        </p>
+        <p>
+          
+        </p>
         <h2>Resume Page</h2>
       </div>
       <div>
