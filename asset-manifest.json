@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/REACT_Portfolio/static/css/main.62220411.css",
+    "main.js": "/REACT_Portfolio/static/js/main.27bcbe72.js",
+    "static/js/787.0343784c.chunk.js": "/REACT_Portfolio/static/js/787.0343784c.chunk.js",
+    "static/media/D0KD0.jpeg": "/REACT_Portfolio/static/media/D0KD0.0802b40dba4fb6519a82.jpeg",
+    "static/media/recipe.jpeg": "/REACT_Portfolio/static/media/recipe.ffcf9774456752e1244c.jpeg",
+    "static/media/Horiseon.jpeg": "/REACT_Portfolio/static/media/Horiseon.b931905f3385a1861303.jpeg",
+    "static/media/pre-work.jpeg": "/REACT_Portfolio/static/media/pre-work.59a2497e9c322dfe5aa5.jpeg",
+    "static/media/avatar.png": "/REACT_Portfolio/static/media/avatar.230dfb2fa1dbfbfcf430.png",
+    "static/media/HelloBud_logo.png": "/REACT_Portfolio/static/media/HelloBud_logo.bf7c3f9cf9aa4b35e949.png",
+    "index.html": "/REACT_Portfolio/index.html",
+    "main.62220411.css.map": "/REACT_Portfolio/static/css/main.62220411.css.map",
+    "main.27bcbe72.js.map": "/REACT_Portfolio/static/js/main.27bcbe72.js.map",
+    "787.0343784c.chunk.js.map": "/REACT_Portfolio/static/js/787.0343784c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62220411.css",
+    "static/js/main.27bcbe72.js"
+  ]
+}
